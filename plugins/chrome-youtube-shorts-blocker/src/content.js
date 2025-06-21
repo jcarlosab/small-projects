@@ -2,7 +2,6 @@ function removeShorts() {
     
     // Eliminar shorts de la página principal
     const shortsElements = document.querySelectorAll('ytd-reel-shelf-renderer, ytd-rich-section-renderer');
-    console.log('Elementos encontrados:', shortsElements.length);
     shortsElements.forEach(element => {
         element.remove();
     });
